@@ -1,0 +1,4 @@
+{
+  "name": "Python Codespace",
+  "extensions": ["ms-python.python"]
+}
