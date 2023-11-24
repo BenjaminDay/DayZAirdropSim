@@ -6,5 +6,10 @@ for container in data['Containers']:
     for item in container['Loot']:
         item['Chance'] = round(item['Chance'], 2)
 
-with open('your_file.json', 'w') as file:
+        if 'Variants' in item:
+            for variant in item['Variants']:
+                variant['Chance'] = round(variant['Chance'], 2)
+
+
+with open('output.json', 'w') as file:
     json.dump(data, file, indent=2)
