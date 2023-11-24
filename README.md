@@ -1,0 +1,2 @@
+# DayZAirdropSim
+Simulates Airdrop loot
