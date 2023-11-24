@@ -1,2 +1,2 @@
 # DayZAirdropSim
-Simulates Airdrop loot
+Simulates Airdrop loot using JSON file as intake
